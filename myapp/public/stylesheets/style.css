@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(54, 53, 53);
+  color: white;
+  padding: 20px;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+section {
+  display: flex;
+}
+
+#icon {
+  margin-right: 10px;
+  width: 35px;
+  filter: invert(100%);
+}
