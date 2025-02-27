@@ -3,8 +3,14 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
 header {
-  background-color: rgb(54, 53, 53);
+  background-color: rgb(0, 0, 0);
   color: white;
   padding: 20px;
 }
@@ -12,15 +18,38 @@ header {
 article {
   display: flex;
   justify-content: space-around;
+  align-items:center;
 }
 
 
 section {
   display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 70px;
 }
 
 #icon {
   margin-right: 10px;
-  width: 35px;
+  width: 28px;
   filter: invert(100%);
+}
+
+.carousel {
+
+  box-shadow: 2px 2px 2px black;
+}
+
+cont-car {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+.cont-car img {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
 }
